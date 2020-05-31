@@ -50,4 +50,5 @@ __meta__ = {
 [node name="Timer" type="Timer" parent="."]
 wait_time = 0.044
 autostart = true
+[connection signal="pressed" from="playnow" to="." method="_on_playnow_pressed"]
 [connection signal="timeout" from="Timer" to="intro" method="_on_Timer_timeout"]
